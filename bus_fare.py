@@ -1,4 +1,6 @@
 # Bus fare calculation based on age and day of the week
+#Author : Manit Kumar | B.Tech CSE (IOT & Cyber security)
+print("---Welcome to the Automated Bus Fare System ---")
 age = int(input("Enter the age of the passenger : " ))
 distance = float(input("Enter the distance traveled in km: "))
 # 1. Determine the base price per km based on age
@@ -42,4 +44,5 @@ else :
         case "sunday":
             base_price = 4.5 # 10% discount
             fare = base_price * distance
+
             print(f" Fare for {day}   : {fare}")
